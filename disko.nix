@@ -1,4 +1,4 @@
-{ disks ? [ "/dev/nvme0n1" ], ... }: 
+{ disks ? [ "/dev/nvme0n1" ], ... }:
   let b = builtins; in {
   disko.devices.disk = {
     base = {
